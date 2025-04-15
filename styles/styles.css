@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+header {
+    margin-top: 3em;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+#container3D canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+#container3D {
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+#container3D canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.textBlock {
+    flex: 1;
+    padding: 2rem;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.textBlock h1 {
+    font-size: 3.5em;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(251, 188, 95); /* яркий неоново-голубой */
+    text-shadow:
+        0 0 5px rgb(188, 141, 69),
+        0 0 10px rgb(202, 151, 76),
+        0 0 20px rgb(196, 147, 72),
+        0 0 40px rgb(251, 188, 95),
+        0 0 60px rgb(251, 188, 95),
+        0 0 80px rgb(251, 188, 95);
+}
+
+
+.textBlock p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.timeline {
+    margin: 4rem auto;
+    width: 80%;
+    padding: 0;
+    position: relative;
+}
+
+.timelineItem {
+    background: linear-gradient(135deg, rgba(17, 17, 17, 1) 0%, rgba(34, 34, 34, 1) 100%);
+    color: white;
+    padding: 2.5rem 3rem;
+    margin: 2rem 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, margin-left 0.3s ease, box-shadow 0.3s ease;
+    animation: slideUp 1s ease-in-out;
+}
+
+.timelineItem h2 {
+    font-size: 2.2em;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.timelineItem p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin-top: 1rem;
+}
+
+.timelineItem:nth-child(odd) {
+    margin-left: 30px;
+    transform: translateX(-30px);
+}
+
+.timelineItem:nth-child(even) {
+    margin-left: 70px;
+    transform: translateX(-60px);
+}
+
+.timelineItem:hover {
+    transform: translateX(0) scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.timelineItem::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #f39c12;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

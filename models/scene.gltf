@@ -1,0 +1,328 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3848,
+      "max": [
+        1.0042643547058105,
+        1.0042643547058105,
+        1.1071785688400269
+      ],
+      "min": [
+        -1.0042643547058105,
+        -1.0042643547058105,
+        -1.1071785688400269
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 46176,
+      "componentType": 5126,
+      "count": 3848,
+      "max": [
+        1.0,
+        1.0,
+        1.9362826151336776e-06
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.9362826151336776e-06
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3848,
+      "max": [
+        0.36524802446365356,
+        0.5941233038902283
+      ],
+      "min": [
+        0.3208027482032776,
+        0.5658031105995178
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 13824,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 92352,
+      "componentType": 5126,
+      "count": 8448,
+      "max": [
+        1.004264235496521,
+        1.004264235496521,
+        1.1071785688400269
+      ],
+      "min": [
+        -1.004264235496521,
+        -1.004264235496521,
+        -1.1071785688400269
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 193728,
+      "componentType": 5126,
+      "count": 8448,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30784,
+      "componentType": 5126,
+      "count": 8448,
+      "max": [
+        0.9753947854042053,
+        0.9722588062286377
+      ],
+      "min": [
+        0.12288923561573029,
+        0.1488117277622223
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 55296,
+      "componentType": 5125,
+      "count": 23028,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "object (https://sketchfab.com/titaniumammas69)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bitcoin-6a95986c5b744757913550f3fc447024",
+      "title": "Bitcoin"
+    },
+    "generator": "Sketchfab-16.63.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 147408,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 98368,
+      "byteOffset": 147408,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 295104,
+      "byteOffset": 245776,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 540880,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Bitcoin_Mat_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Basic_Metal",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.21404114048223255,
+          0.09714979695507922,
+          0.024031858959787145,
+          1.0
+        ],
+        "roughnessFactor": 0.09942582682156753
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Bitcoin_Mat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.821335836452073,
+        "roughnessFactor": 0.19694993356170232
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder_Basic_Metal_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cylinder_Bitcoin_Mat_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "7b3ec1567e53430ab1ca93ebf85d3443.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        -1.5668044077918724e-05,
+        -358.4430541992178,
+        2.136486837085944e-05,
+        0.0,
+        -5.839778694809427e-05,
+        -2.1364865823968356e-05,
+        -358.44305419921335,
+        0.0,
+        9.279507637023794,
+        -4.056202660002816e-07,
+        -1.5118236907060907e-06,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "mesh": 0,
+      "name": "Cylinder_Basic_Metal_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Cylinder_Bitcoin_Mat_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
